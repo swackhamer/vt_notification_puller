@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "Cuckoo-Sandbox-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Cuckoo Sandbox Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":3,\"id\":\"connected-host-data-table\",\"panelIndex\":3,\"row\":3,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"VT-sig-normalized\",\"panelIndex\":5,\"row\":7,\"size_x\":3,\"size_y\":5,\"type\":\"visualization\"},{\"col\":8,\"id\":\"file-type\",\"panelIndex\":6,\"row\":1,\"size_x\":3,\"size_y\":5,\"type\":\"visualization\"},{\"col\":11,\"id\":\"file-size\",\"panelIndex\":7,\"row\":1,\"size_x\":2,\"size_y\":5,\"type\":\"visualization\"},{\"col\":3,\"id\":\"document-count\",\"panelIndex\":9,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"resolves-host\",\"panelIndex\":10,\"row\":1,\"size_x\":2,\"size_y\":6,\"type\":\"visualization\"},{\"col\":6,\"id\":\"top-hashes\",\"panelIndex\":12,\"row\":1,\"size_x\":2,\"size_y\":6,\"type\":\"visualization\"},{\"id\":\"top-mutexes\",\"type\":\"visualization\",\"panelIndex\":13,\"size_x\":4,\"size_y\":6,\"col\":8,\"row\":6},{\"id\":\"top-task-id\",\"type\":\"visualization\",\"panelIndex\":14,\"size_x\":1,\"size_y\":6,\"col\":12,\"row\":6},{\"id\":\"top-command-line\",\"type\":\"visualization\",\"panelIndex\":15,\"size_x\":4,\"size_y\":5,\"col\":1,\"row\":7}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-30d",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  }
+]
