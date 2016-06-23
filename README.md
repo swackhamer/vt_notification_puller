@@ -21,3 +21,11 @@ cuckoo_username = Username for Cuckoo API if needed
 cuckoo_password = Password for Cuckoo API if needed
 cuckoo_url = URL including port for the Cuckoo API needed for Cuckoo analysis
 cuckoo_machine = Cuckoo machine label to send notifications too
+
+# Kibana
+
+The kibana folder has dashboards, saved searches, and visualizations that
+you can pull into your own Kibana instance.  A preview of one such dashboard
+is below.
+
+![Sample Dashboard](kibana/kibana.png?raw=true "Sample Dashboard")
