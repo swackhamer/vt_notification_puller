@@ -30,9 +30,12 @@ class VirusTotal(object):
         self.push_mappings()
 
     def get_es_conn(self):
-        es = Elasticsearch(
-            [self.cfg["es_url"]],
-            http_auth=(self.cfg["es_username"], self.cfg["es_password"]))
+        if self.cfg["es_username"] is not None and self.cfg["es_password"] is not None:
+            es = Elasticsearch(
+                [self.cfg["es_url"]],
+                http_auth=(self.cfg["es_username"], self.cfg["es_password"]))
+        else:
+            es = Elasticsearch([self.cfg["es_url"]])
         return es
 
     @staticmethod
