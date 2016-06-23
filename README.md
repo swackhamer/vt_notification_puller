@@ -1,4 +1,4 @@
-# vt_notification_puller
+# VirusTotal Notification Puller
 
 To run without Cuckoo submission and just indexing into ES:
 ```python vt_notification_pull.py```
