@@ -32,7 +32,7 @@ class VirusTotal(object):
     def get_es_conn(self):
         es = Elasticsearch(
             [self.cfg["es_url"]],
-            http_auth=(self.cfg["username"], self.cfg["password"]))
+            http_auth=(self.cfg["es_username"], self.cfg["es_password"]))
         return es
 
     @staticmethod
