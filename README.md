@@ -27,7 +27,7 @@ cuckoo_machine = Cuckoo machine label to send notifications too
 # Kibana
 
 The kibana folder has dashboards, saved searches, and visualizations that
-you can pull into your own Kibana instance.  A preview of a dashboard which
-includes some of the visualizations includes is shown below.
+you can pull into your own Kibana instance.  The dashboard included is
+shown below which shows many of the visualizations as well.
 
 ![Sample Dashboard](kibana/kibana.png?raw=true "Sample Dashboard")
