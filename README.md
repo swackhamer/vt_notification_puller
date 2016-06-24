@@ -2,13 +2,17 @@
 
 To run without Cuckoo submission and just indexing into ES:
 
-This queries VirusTotal Intelligence's notification API using the VirusTotal API key entered in the configuration file.  This API key receives notifications for hunting rulesets that are either owned or shared to him either directly or indirectly (such as a ruleset being shared to a group that the user is a member of).
 ```python vt_notification_pull.py```
+
+This queries VirusTotal Intelligence's notification API using the VirusTotal API key entered in the configuration file.  This API key receives notifications for hunting rulesets that are either owned or shared to him either directly or indirectly (such as a ruleset being shared to a group that the user is a member of).
+
 
 To run with Cuckoo submission support:
 
-**NOTE**: This functionality leverages the provided VirusTotal API key to download the file using VT's **private API**.  This API call will use up a *download* for *every notification* processed.  If you are not sure of your current subscription level you should check before using this option.  This function could be easily replaced if you have another API or method of obtaining malware binaries.
 ```python vt_notification_pull.py -c```
+
+**NOTE**: This functionality leverages the provided VirusTotal API key to download the file using VT's **private API**.  This API call will use up a *download* for *every notification* processed.  If you are not sure of your current subscription level you should check before using this option.  This function could be easily replaced if you have another API or method of obtaining malware binaries.
+
 
 For the Kibana visualizations to work please use Cuckoo 2.0 dev branch with this Pull Request https://github.com/cuckoosandbox/cuckoo/pull/968
 
