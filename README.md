@@ -6,6 +6,8 @@ To run without Cuckoo submission and just indexing into ES:
 To run with Cuckoo submission support:
 ```python vt_notification_pull.py -c```
 
+For the Kibana visualizations to work please use Cuckoo 2.0 dev branch with this Pull Request https://github.com/cuckoosandbox/cuckoo/pull/968
+
 ## virustotal.cfg
 virustotal.cfg is the configuration file and will need to be configured
 at a minimum with the following options:
