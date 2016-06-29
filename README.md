@@ -41,3 +41,8 @@ you can pull into your own Kibana instance.  The dashboard included is
 shown below which shows many of the visualizations as well.
 
 ![Sample Dashboard](kibana/kibana.png?raw=true "Sample Dashboard")
+
+# License
+
+The code is licensed under GPLv3.  If this license is restricting your use of the code
+please contact me.
